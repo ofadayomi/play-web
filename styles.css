@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+}
+
+h1 {
+    color: #333;
+}
+
+#game-container {
+    display: inline-block;
+    margin-top: 20px;
+}
+
+canvas {
+    border: 2px solid #333;
+    background-color: #87CEEB; /* Sky blue */
+}
+
+#controls {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+#score-panel, #high-score-panel {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+#high-score-display {
+    font-weight: bold;
+    color: #d9534f;
+}
+
+#start-btn {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    padding: 20px 40px;
+    font-size: 24px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#start-btn:hover {
+    background-color: darkred;
+}
